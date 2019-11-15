@@ -1,6 +1,8 @@
+install: travis_wait 20 mvn install
+
 language: node_js
 
 node_js:
   - 10.16.3
 
-install: travis_wait 20 mvn install
+
