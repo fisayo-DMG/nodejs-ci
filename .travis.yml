@@ -1,4 +1,4 @@
-install: travis_wait 20 mvn install
+install: travis_wait 19 mvn install
 
 language: node_js
 
