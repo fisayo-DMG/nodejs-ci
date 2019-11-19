@@ -11,7 +11,7 @@ describe('Server!', () => {
             .end((err, res) => {
                 expect(res).to.have.status(200);
                 expect(res.body.status).to.equal('success');
-                expect(res.body.message).to.equal('Welcome To Testing API');
+                expect(res.body.message).to.equal('Welcome To The Testing API');
                 done();
             });
     });
